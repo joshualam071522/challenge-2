@@ -17,6 +17,10 @@ header {
     align-items: center;
 }
 
+nav {
+    width: 600px;
+}
+
 main {
     background-color: rgb(112, 250, 158);
     display: flex;
@@ -34,7 +38,6 @@ section {
 
 section h2,
 ul {
-    background-color: white;
     width: 100%;
     text-align: center;
     text-decoration: underline;
