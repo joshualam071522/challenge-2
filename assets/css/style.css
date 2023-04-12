@@ -23,4 +23,20 @@ ul {
     justify-content: space-between;
 }
 
+@media screen and (min-width: 320px) {
+    nav {
+        background-color: lightblue;
+    }
+}
 
+@media screen and (min-width: 480px) {
+    nav {
+        background-color: rgb(82, 238, 77);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        background-color: rgb(235, 225, 89);
+    }
+}
