@@ -1,3 +1,8 @@
+* {
+    font-family: "Helvetica", "Garamond", 'Times New Roman';
+    font-size: 30px;
+}
+
 body {
     box-sizing: border-box;
 }
@@ -11,6 +16,7 @@ header {
 }
 
 ul {
+    font-weight: bold;
     min-width: 600px;
     display: flex;
     list-style: none;
