@@ -32,6 +32,14 @@ main {
     background-color: pink;
 }
 
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 20px;
+}
+
 .portfolio img {
     height: 200px;
     width: 50%
