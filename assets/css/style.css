@@ -26,14 +26,18 @@ ul {
 }
 
 main {
-    background-color: pink;
+    background-color: rgb(112, 250, 158);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 40px;
+    width: 50%;
 }
 
 section h2 {
@@ -44,20 +48,24 @@ section h2 {
 }
 section img {
     height: 150px;
-    border: 5px rgb(151, 214, 151);
+    border: 5px rgb(165, 165, 165);
     border-style: solid;
     flex: 0 0 47%;
 }
 
+img {
+    width: 50px;
+}
+
 .work {
-    background-color: aqua;
-    min-height: 80vh;
+    min-height: 65vh;
 }
 
 .main-portfolio {
     height: 150px;
     flex: 1 1 100%;
 }
+
 @media screen and (max-width: 992px) {
     nav {
         background-color: lightblue;
@@ -68,10 +76,24 @@ section img {
     nav {
         background-color: rgb(82, 238, 77);
     }
+    .work {
+        min-height: 100vh;
+    }
+    section img {
+        display: flex;
+        flex: 1 1 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
     nav {
         background-color: rgb(235, 225, 89);
+    }
+    .work {
+        min-height: 100vh;
+    }
+    section img {
+        display: flex;
+        flex: 1 1 100%;
     }
 }
