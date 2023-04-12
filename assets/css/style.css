@@ -17,14 +17,6 @@ header {
     align-items: center;
 }
 
-ul {
-    font-weight: bold;
-    min-width: 600px;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
 main {
     background-color: rgb(112, 250, 158);
     display: flex;
@@ -40,7 +32,8 @@ section {
     width: 50%;
 }
 
-section h2 {
+section h2,
+ul {
     background-color: white;
     width: 100%;
     text-align: center;
@@ -55,6 +48,14 @@ section img {
 
 img {
     width: 50px;
+}
+
+ul {
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
 }
 
 .work {
