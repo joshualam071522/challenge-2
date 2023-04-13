@@ -67,11 +67,6 @@ ul {
     align-content: space-between;
 }
 
-.main-portfolio {
-    max-width: 100%;
-    flex: 1 1 100%;
-}
-
 @media screen and (max-width: 992px) {
     nav {
         background-color: lightblue;
