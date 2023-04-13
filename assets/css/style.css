@@ -25,29 +25,7 @@ main {
     background-color: rgb(112, 250, 158);
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
     align-items: center;
-}
-
-section {
-    display: flex;
-    flex-flow: row wrap;
-    width: 80%;
-}
-
-section h2,
-ul {
-    width: 100%;
-    text-align: center;
-    text-decoration: underline;
-}
-
-section img {
-    height: 200px;
-    max-width: 48%;
-    flex: 1 0 40%;
-    border: 3px green;
-    border-style: solid;
 }
 
 ul {
@@ -79,11 +57,6 @@ ul {
     }
     .work {
         min-height: 100vh;
-    }
-    section img {
-        display: flex;
-        flex: 1 1 100%;
-        max-width: 100%;
     }
 }
 
