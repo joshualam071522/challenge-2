@@ -137,6 +137,13 @@ margin: 0 auto;
     .other {
         width: 95%;
     }
+
+    .contact ul{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        min-height: 20vh;
+    }
 }
 @media screen and (max-width: 576px) {
     nav {
