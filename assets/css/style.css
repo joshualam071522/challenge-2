@@ -38,15 +38,24 @@ ul {
 
 .work {
     width: 100%;
-    min-height: 80vh;
     background-color: aqua;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-between;
     align-content: space-between;
 }
+
+.work h2{
+    background-color: blanchedalmond;
+}
 .work img {
     height: 200px;
+    width: 500px;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 @media screen and (max-width: 992px) {
