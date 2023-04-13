@@ -82,6 +82,11 @@ border-style: solid;
     max-height: 100%;
 }
 
+.contact {
+    text-align: center;
+    width: 100%;
+}
+
 @media screen and (max-width: 992px) {
     nav {
         background-color: lightblue;
