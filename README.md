@@ -1,14 +1,15 @@
 # challenge-2
 
 Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
 The reason for this project was to create a portfolio from scratch. Doing so will allow me to apply the basic of CSS. Doing so will also provide a baseline for my future final portfolio I present to future employers. To achieve this goal, I created an index file and CSS file, as usual. I had to use multiple class selectors in order to use them in the CSS File. Flexbox was also used throughout the challenge, along with manyh other basic css properties such as width, font size, and border. Throughout the project, I was able to reinforce my knowledge on basic CSS properties and Flexbox structure.
 
 Installation
+
 N/A
 
 Usage
+
 My portfolio can be accessed through the links in the navigation bar on top, through there, you will be redirected to the chosen section of the portfolio. When viewing the Work section, you will be able to click on each project, which is a link that will show you that certain project. There is also media viewability on all devices avaiable for this website.
 
 Credits
