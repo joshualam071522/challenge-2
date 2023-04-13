@@ -48,14 +48,9 @@ ul {
 .work h2{
     background-color: blanchedalmond;
 }
-.work img {
-    height: 200px;
-    width: 500px;
-}
 
-.projects {
-    display: flex;
-    flex-flow: row wrap;
+.projects img {
+    height: 200px;
 }
 
 @media screen and (max-width: 992px) {
