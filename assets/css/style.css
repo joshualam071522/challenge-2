@@ -22,7 +22,6 @@ nav {
 }
 
 main {
-    background-color: rgb(112, 250, 158);
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -37,6 +36,7 @@ ul {
 }
 
 .title-image{
+    padding: 0;
     width: 100%;
 }
 .title-image img {
@@ -44,6 +44,14 @@ ul {
     height: 400px;
 }
 
+.about {
+    padding: 0 10px;
+}
+.work-title {
+    padding: 0 10px;
+    width: 100%;
+    text-align: left;
+}
 
 .work {
 display: flex;
