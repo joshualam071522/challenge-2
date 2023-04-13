@@ -7,6 +7,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color:#b8cfba;
+    color: #552f00;
 }
 
 header {
@@ -72,6 +74,7 @@ border-style: solid;
 }
 
 .other header {
+    justify-content: center;
     background: #13293d;
     color: #fff;
 }
@@ -90,7 +93,8 @@ border-style: solid;
 }
 
 .first header {
-    background: #6dafec;
+    justify-content: center;
+    background: #80e458;
     color: #fff;
 }
 
