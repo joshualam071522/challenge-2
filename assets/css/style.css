@@ -36,6 +36,52 @@ ul {
     padding: 0;
 }
 
+.work {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+width: 80%;
+margin: 0 auto;
+border-style: solid;
+flex: 1 1 50%;
+}
+
+.other {
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+    border-style: solid;
+}
+
+.other header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+
+.other img {
+    width: 100%;
+    height: 70%;
+}
+
+.first {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(124, 12, 12);
+}
+
+.first header {
+    padding: 20px;
+    background: #6dafec;
+    color: #fff;
+}
+
+.first img {
+    width: 100%;
+}
+
 @media screen and (max-width: 992px) {
     nav {
         background-color: lightblue;
@@ -47,6 +93,10 @@ ul {
         background-color: rgb(82, 238, 77);
     }
 
+    .other {
+        width: 100%;
+    }
+}
 @media screen and (max-width: 576px) {
     nav {
         background-color: rgb(235, 225, 89);
