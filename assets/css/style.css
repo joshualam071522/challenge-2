@@ -36,23 +36,6 @@ ul {
     padding: 0;
 }
 
-.work {
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-content: space-between;
-}
-
-.work h2{
-    background-color: blanchedalmond;
-}
-
-.projects img {
-    height: 200px;
-}
-
 @media screen and (max-width: 992px) {
     nav {
         background-color: lightblue;
@@ -63,10 +46,6 @@ ul {
     nav {
         background-color: rgb(82, 238, 77);
     }
-    .work {
-        min-height: 100vh;
-    }
-}
 
 @media screen and (max-width: 576px) {
     nav {
