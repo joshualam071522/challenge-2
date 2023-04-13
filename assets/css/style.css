@@ -29,7 +29,11 @@ main {
     align-items: center;
 }
 
-
+section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
 
 section h2,
 ul {
