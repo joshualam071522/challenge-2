@@ -37,12 +37,16 @@ ul {
 }
 
 .work {
+    width: 100%;
     min-height: 80vh;
     background-color: aqua;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-between;
+}
+.work img {
+    height: 200px;
 }
 
 @media screen and (max-width: 992px) {
